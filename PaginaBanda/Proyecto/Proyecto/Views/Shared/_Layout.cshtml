@@ -1,0 +1,85 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Estilos.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="~/fontawesome/css/solid.css" />
+
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra-navegacion">
+                <div class="logo">
+                    <a href="~/Home/Index"><h2 class="logo">Ero<span class="logo--color">shenko</span></h2></a>
+@*                    <a href="~/Home/Index"><img src="~/images/logo.png" alt="Logo de la marca" height="60px" width="120px"></a>
+*@                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="~/Multimedia/Musica">Nuestra Música</a></li>
+                        <li><a href="~/Info/Nosotros">Nosotros</a></li>
+                        <li><a href="~/Multimedia/Galeria">Galería</a></li>
+                        <li><a href="~/Home/Index">Inicio</a></li>
+                    </ul>
+                </nav>
+                <a class="btn" href="~/Info/Contacto"><button>Contacto</button></a>
+
+                <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+                <div id="mobile-menu" class="overlay">
+                    <a onclick="closeNav()" href="" class="close">&times;</a>
+                <div class="overlay-content">
+                        <a href="~/Home/Index">Inicio</a>
+                        <a href="~/Multimedia/Musica">Nuestra Musica</a>
+                        <a href="~/Info/Nosotros">Nosotros</a>
+                        <a href="~/Multimedia/Galeria">Galeria</a>
+                        <a href="~/Info/Contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="header__contenido">
+                <h1 class="header__titulo">Retrato de <span class="header__titulo--color">Eroshenko</span></h1>
+                <p class="header__texto">Conoce nuestra música, interpretaciones y mucho más sobre nosotros</p>
+            </section>
+            <h2 class="header__texto--musica">¡Escuchanos!</h2>
+            <audio controls class="controls">
+                <source class="controls__audio" src="~/audio/ROCK SIN COPYRIGHT - USO LIBRE 6 - GARAGE.mp3" type="audio/mp3" />
+            </audio>
+        </div>
+    </header>
+        <section>
+            @RenderBody();
+        </section>
+        <footer class="footer">
+            <div class="contenedor footer-layout">
+                <a href="#"><i class="fa-brands fa-spotify i"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook i"></i></a>
+            <div class="logo">
+                <a href="#"><img src="~/images/logo.png" alt="Logo de la marca" height="60px" width="120px"></a>
+            </div>
+                <a href="#"><i class="fa-brands fa-instagram i"></i></a>
+            <a href="https://youtu.be/kICkFuYctE0"><i class="fa-brands fa-youtube i"></i></a>
+            </div>
+        </footer>
+    <script type="text/javascript" src="~/js/script.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required:  false)
+
+
+</body>
+</html>

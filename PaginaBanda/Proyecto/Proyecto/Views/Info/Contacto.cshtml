@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Contacto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+
+    <h1 class="logo"><span>Contacta</span> con nosotros</h1>
+
+    <div class="contact-wrapper animated bounceInUp">
+        <div class="contact-form">
+            <h3>Llena el formulario y nos pondremos en contacto a la brevedad</h3>
+            <form action="~/Home/Index">
+                <p>
+                    <label>Nombre Completo</label>
+                    <input type="text" name="fullname">
+                </p>
+                <p>
+                    <label>Correo Electronico</label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label>Número Telefónico</label>
+                    <input type="tel" name="phone">
+                </p>
+                <p>
+                    <label>Ciudad</label>
+                    <input type="text" name="affair">
+                </p>
+                <p class="block">
+                    <label>Mensaje</label>
+                    <textarea name="message" rows="3"></textarea>
+                </p>
+                <p class="block">
+                    <button>
+                        Enviar
+                    </button>
+                </p>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h4>Mas informacion</h4>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> </li>
+                <li><i class="fas fa-phone"></i> 2212505409</li>
+                <li><i class="fas fa-envelope-open-text"></i> retratoheroshenko@gmail.com</li>
+            </ul>
+            <p></p>
+            
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,674 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* GLOBALES */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    max-width: 100%
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.contenedor {
+    width: min(120rem, 95%);
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    background-image: url(../images/bannerIndex.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 80vh;
+}
+.barra-navegacion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8.5rem;
+    padding: 5px 10%;
+}
+
+.barra-navegacion .logo{
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+
+.logo img{
+    height: 7rem;
+    width: auto;
+    transition: all 0.3s;
+}
+.logo {
+    color: #ffbc0e!important;
+}
+.logo--color {
+    color: #fff!important;
+}
+.logo img:hover{
+    transform: scale(1.2);
+}
+
+.barra-navegacion nav{
+    order: 1;
+}
+
+.barra-navegacion .nav-links{
+    list-style: none;
+}
+
+.barra-navegacion .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.barra-navegacion .nav-links li:nth-child(1){
+    padding: 0 20px 0 0;
+}
+
+.barra-navegacion .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.barra-navegacion .nav-links a{
+    font-size: 2rem;
+    color: #eceff1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    .barra-navegacion .nav-links li a:hover {
+        color: #ffbc0e;
+    }
+
+.barra-navegacion .btn{
+    order: 2;
+}
+
+.barra-navegacion .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    .barra-navegacion .btn button:hover {
+        background-color: #000;
+        color: #ffbc0e;
+        transform: scale(1.1);
+    }
+
+@media screen and (max-width: 800px) {
+    .nav-links, .btn {
+        display: none;
+    }
+
+    .menu {
+        display: inherit;
+    }
+}
+
+/*Nav Mobile*/
+
+
+.barra-navegacion a{
+    text-decoration: none;  
+    /*borramos el que teniamos en .header .nav-links a*/ 
+}
+
+.barra-navegacion .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(33, 49, 63, .95);
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.barra-navegacion .overlay .overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.barra-navegacion .overlay a{
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: #eceff1;
+}
+
+.barra-navegacion .overlay a:hover, 
+.barra-navegacion .overlay a:focus{
+    color: #ffbc0e;
+}
+
+.barra-navegacion .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+@media screen and (max-height:450px) {
+    .barra-navegacion .overlay a {
+        font-size: 20px;
+    }
+    .barra-navegacion .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+} a{
+    text-decoration: none;  
+    /*borramos el que teniamos en .header .nav-links a*/ 
+}
+
+.barra-navegacion .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.barra-navegacion .overlay .overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.barra-navegacion .overlay a{
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: #eceff1;
+}
+
+.barra-navegacion.overlay a:hover, 
+.barra-navegacion .overlay a:focus{
+    color: #ffbc0e;
+}
+
+.barra-navegacion .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+@media screen and (max-height:450px) {
+    .barra-navegacion .overlay a{
+        font-size: 20px;
+    }
+    .barra-navegacion .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.menu {
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button {
+    border: none;
+}
+@media (min-width: 720px) {
+    .menu {
+        display: none;
+    }
+}
+
+.header__contenido {
+    margin-top: 10rem;
+}
+
+@media (min-width: 720px) {
+    .header__contenido {
+        margin-top: 25vh;
+    }
+}
+
+.header__contenido h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.header__contenido p {
+    font-size: 2rem;
+}
+.header__titulo--color {
+    color: #ffbc0e;
+}
+.header__texto--musica {
+    font-weight: bold;
+    color: #ffbc0e; 
+}
+/*Musica control Banner*/
+
+.controls {
+    margin-top: 2rem;
+}
+
+.header__texto--muisica {
+    margin-top: 5rem;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #000;
+    padding: 3rem 0;
+}
+.footer-layout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fa-brands {
+    transition: transform 0.3s ease-in;
+}
+.fa-brands:hover {
+    color: #ffbc0e;
+    transform: scale(1.2);
+}
+
+
+/****** PAGINA PRINCIPAL *****/
+
+/* NOSOTROS */
+
+.nosotros {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.nosotros__title {
+    color: #000;
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.nosotros__title--color {
+    color: #ffbc0e;
+}
+.nosotros__layout {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+.nosotros__layout div {
+    flex: 1;
+}
+.nosotros__layout img {
+    max-width: 100%;
+    transition: transform 0.3s ease-out;
+}
+.nosotros__layout img:hover {
+    transform: scale(1.05);
+}
+.nosotros__btn a {
+    display: block;
+    color: #fff;
+    background-color: #000;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+.nosotros__btn a:hover {
+    color: #ffbc0e;
+    font-weight: bold;
+}
+@media (min-width: 720px) {
+    .nosotros__btn a {
+        display: inline;
+    }
+    .nosotros__btn {
+        text-align: center;
+    }
+}
+.nosotros__btn{
+    transition: transform 0.3s ease;
+}
+.nosotros__btn:hover {
+    transform: scale(1.05);
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(../images/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 30rem;
+}
+
+/* CANCIONES */
+
+.canciones {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 100vh;
+    text-align: center;
+}
+.canciones__title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.canciones__title--color {
+    color: #ffbc0e;
+}
+.cards {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 80vh;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: flex 0.4s ease;
+}
+.card--active {
+    flex: 10;
+}
+.cancion__contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/********* GALERÍA *******++*/
+/*Galeria__carrucel*/   
+.Galeria {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.Galeria__carrucel {
+    display: flex;
+    width: 130rem;
+    height: 43rem;
+}
+
+.Galeria__carrucel img {
+     width: 10rem;
+     flex-grow: 1;
+     object-fit: cover;
+     opacity: .8;
+     transition: .7s;
+    }
+
+.Galeria__carrucel img:hover {
+    cursor: crosshair;
+    width: 50rem;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/*********** CANCIONES *************/
+
+
+.canciones_layout {
+    margin-top: 5rem;
+    padding: 4rem;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    margin-bottom: 5rem;
+}
+.cancion {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cancion h2 {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+.cancion iframe {
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+.cancion p {
+    text-align: center; 
+}
+@media (min-width: 720px) {
+    .cancion__contenido {
+        display: flex;
+        gap: 4rem;
+    }
+    .cancion__contenido iframe {
+        flex: 1;
+        margin-bottom: 0;
+    }
+    .cancion__contenido p {
+        flex: 1;
+    }
+}
+
+/******** FORMULARIO *******/
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffbc0e;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+    .contact-form form button,
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 100%;
+        padding: .7em;
+        border: none;
+        background: none;
+        outline: 0;
+        color: #fff;
+        border-bottom: 1px solid #ffbc0e;
+    }
+
+.contact-form form button {
+    background: #ffbc0e;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #000;
+    color: #ffbc0e;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+/* CONTACT INFO */
+.contact-info {
+    background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 720px) {
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+.content {
+    margin-top: 6rem;
+}
+
+/**********NOSOTROS***********/
+
+/*banda*/
+
+
+.banda__contenido {
+    color: #000;
+    text-align: center;
+}
+
+.banda__contenido h3 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.banda__contenido span {
+    color: #ffbc0e;
+}
+.banda {
+    display: grid;
+    gap: 1.5rem;
+}
+@media (min-width: 720px) {
+    .bandas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+    .banda:first-of-type {
+        grid-column: 1 / 3;
+    }
+    
+}
+
+
+/******galeria********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 85%;
+    margin: 20px auto;
+}
+
+    .container .title {
+        font-size: 25px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .container .image-container {
+        columns: 3 100px;
+        gap: 11px;
+    }
+
+        .container .image-container img {
+            margin-bottom: 11px;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+
+
+
+
+

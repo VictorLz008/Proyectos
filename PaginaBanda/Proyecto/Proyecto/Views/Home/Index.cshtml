@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="nosotros contenedor">
+    <h2 class="nosotros__title">Conoce más sobre<span class="nosotros__title--color">nosotros</span></h2>
+
+    <div class="nosotros__layout">
+        <div>
+            <img src="~/images/tecladista.jpg" />
+        </div>
+        <div>
+            <img src="~/images/baterista1.jpg" />
+        </div>
+        <div>
+            <img src="~/images/guitarrista.jpg" />
+        </div>
+    </div>
+
+    <div class="nosotros__btn">
+        <a href="~/Home/Nosotros">Conócenos</a>
+    </div>
+</section>
+
+<section class="banner">
+    <div class="contenedor">
+        <h2 class="bannner__contenido"></h2>
+    </div>
+</section>
+
+<section class="canciones contenedor">
+    <h2 class="canciones__title">Nuestras últimas <span class="canciones__title--color">canciones</span></h2>
+
+    <div class="cards">
+        <div class="card card--active" style="background-image: url(https://images.unsplash.com/photo-1623720423523-06849fca9c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=385&q=80);">
+            <h3 class="card__content">Hola</h3>
+        </div>
+        
+        <div class="card" style="background-image: url(https://images.unsplash.com/photo-1558584673-650e95fef616?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80);">
+            <h3 class="card__content">Hola</h3>
+        </div>
+
+        <div class="card" style="background-image: url(https://images.unsplash.com/photo-1565227748061-b5935bb64665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=486&q=80);">
+            <h3 class="card__content">Hola</h3>
+        </div>
+
+        <div class="card" style="background-image: url(https://images.unsplash.com/photo-1479707609144-2213d11caa08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);">
+            <h3 class="card__content">Hola</h3>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            console.log('pueba')
+
+            clearClasses();
+            card.classList.add('card--active')
+        })
+    })
+
+
+    function clearClasses() {
+        cards.forEach(card => {
+            card.classList.remove('card--active')
+        })
+    }
+</script>

@@ -1,6 +1,0 @@
-C:\5D\WebHorario\ClassEntidades\bin\Debug\ClassEntidades.dll
-C:\5D\WebHorario\ClassEntidades\bin\Debug\ClassEntidades.pdb
-C:\5D\WebHorario\ClassEntidades\obj\Debug\ClassEntidades.csproj.AssemblyReference.cache
-C:\5D\WebHorario\ClassEntidades\obj\Debug\ClassEntidades.csproj.CoreCompileInputs.cache
-C:\5D\WebHorario\ClassEntidades\obj\Debug\ClassEntidades.dll
-C:\5D\WebHorario\ClassEntidades\obj\Debug\ClassEntidades.pdb

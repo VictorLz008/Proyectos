@@ -9056,19 +9056,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VictorLz\\.nuget\\packages\\": {}
+    "C:\\Users\\vsola\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VictorLz\\Desktop\\Escuela\\Nueva carpeta\\Curso HTML UDEMY\\ProyectoC\\ProyectoC\\Proyecto\\Proyecto\\Proyecto.csproj",
+      "projectUniqueName": "C:\\Users\\vsola\\OneDrive\\Escritorio\\ProyectosC\\PaginaBanda\\Proyecto\\Proyecto\\Proyecto.csproj",
       "projectName": "Proyecto",
-      "projectPath": "C:\\Users\\VictorLz\\Desktop\\Escuela\\Nueva carpeta\\Curso HTML UDEMY\\ProyectoC\\ProyectoC\\Proyecto\\Proyecto\\Proyecto.csproj",
-      "packagesPath": "C:\\Users\\VictorLz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VictorLz\\Desktop\\Escuela\\Nueva carpeta\\Curso HTML UDEMY\\ProyectoC\\ProyectoC\\Proyecto\\Proyecto\\obj\\",
+      "projectPath": "C:\\Users\\vsola\\OneDrive\\Escritorio\\ProyectosC\\PaginaBanda\\Proyecto\\Proyecto\\Proyecto.csproj",
+      "packagesPath": "C:\\Users\\vsola\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vsola\\OneDrive\\Escritorio\\ProyectosC\\PaginaBanda\\Proyecto\\Proyecto\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\VictorLz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vsola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

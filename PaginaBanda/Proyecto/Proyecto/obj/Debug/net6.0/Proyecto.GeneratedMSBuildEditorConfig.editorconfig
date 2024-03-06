@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto
 build_property.RootNamespace = Proyecto
-build_property.ProjectDir = C:\Users\VictorLz\Desktop\Escuela\Nueva carpeta\Curso HTML UDEMY\ProyectoC\ProyectoC\Proyecto\Proyecto\
+build_property.ProjectDir = C:\Users\vsola\OneDrive\Escritorio\ProyectosC\PaginaBanda\Proyecto\Proyecto\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\VictorLz\Desktop\Escuela\Nueva carpeta\Curso HTML UDEMY\ProyectoC\ProyectoC\Proyecto\Proyecto
+build_property.MSBuildProjectDirectory = C:\Users\vsola\OneDrive\Escritorio\ProyectosC\PaginaBanda\Proyecto\Proyecto
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/Home/Index.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/Info/Contacto.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/Info/Contacto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xDb250YWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/Info/Nosotros.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/Info/Nosotros.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xOb3NvdHJvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/Multimedia/Galeria.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/Multimedia/Galeria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVsdGltZWRpYVxHYWxlcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/Multimedia/Musica.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/Multimedia/Musica.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVsdGltZWRpYVxNdXNpY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/Shared/Error.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/Shared/_Layout.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VictorLz/Desktop/Escuela/Nueva carpeta/Curso HTML UDEMY/ProyectoC/ProyectoC/Proyecto/Proyecto/Views/_ViewStart.cshtml]
+[C:/Users/vsola/OneDrive/Escritorio/ProyectosC/PaginaBanda/Proyecto/Proyecto/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,12 @@
+C:\5D\WebHorarios\ClassEntidades\bin\Debug\ClassEntidades.dll
+C:\5D\WebHorarios\ClassEntidades\bin\Debug\ClassEntidades.pdb
+C:\5D\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.csproj.AssemblyReference.cache
+C:\5D\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.csproj.CoreCompileInputs.cache
+C:\5D\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.dll
+C:\5D\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.pdb
+C:\Users\vsola\OneDrive\Escritorio\Nueva carpeta (2)\WebHorarios\ClassEntidades\bin\Debug\ClassEntidades.dll
+C:\Users\vsola\OneDrive\Escritorio\Nueva carpeta (2)\WebHorarios\ClassEntidades\bin\Debug\ClassEntidades.pdb
+C:\Users\vsola\OneDrive\Escritorio\Nueva carpeta (2)\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.csproj.AssemblyReference.cache
+C:\Users\vsola\OneDrive\Escritorio\Nueva carpeta (2)\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.csproj.CoreCompileInputs.cache
+C:\Users\vsola\OneDrive\Escritorio\Nueva carpeta (2)\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.dll
+C:\Users\vsola\OneDrive\Escritorio\Nueva carpeta (2)\WebHorarios\ClassEntidades\obj\Debug\ClassEntidades.pdb
